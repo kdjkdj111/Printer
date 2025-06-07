@@ -22,7 +22,7 @@
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{4dc0e42b-7bba-4b5c-abea-accb1f5d4447}</ProjectGuid>
-    <RootNamespace>My8장실습3번프린터</RootNamespace>
+    <RootNamespace>MyAssignment_4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>Assignment_4</ProjectName>
   </PropertyGroup>
