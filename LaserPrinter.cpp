@@ -1,7 +1,8 @@
 #include "LaserPrinter.h"
 
 //레이저 프린터 생성자
-LaserPrinter::LaserPrinter(string model, string manufacturer, int availableCount, int availableToner) : BasePrinter(model, manufacturer, availableCount) {
+LaserPrinter::LaserPrinter(string model, string manufacturer, int availableCount, int availableToner) 
+	: BasePrinter(model, manufacturer, availableCount) {
 	this->availableToner = availableToner;
 }
 

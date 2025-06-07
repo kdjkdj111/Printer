@@ -20,7 +20,7 @@ int main() {
 	while (true) {
 	
 		int printer, pages; //프린터 종류와 매수 입력 변수
-		char answer; //계속 프린트 여부 변수
+		char answer; //추가 프린트 여부 변수
 
 		//프린터 종류와 매수 입력
 		cout << endl<< "프린터(1:잉크젯, 2:레이저)와 매수 입력>>";
@@ -51,7 +51,7 @@ int main() {
 		Ink->getInfo(); //프린터 정보 출력
 		Laser->getInfo();
 
-		//계속 프린트 여부 확인
+		// 추가 프린트 여부 확인
 		while (true) {
 			cout << "계속 프린트 하시겠습니까(y,n)";
 			cin >> answer;
@@ -65,6 +65,7 @@ int main() {
 				return 0;
 			}
 			else {
+				cin.ignore(1000, '\n');
 				cout << "y 또는 n으로만 답변해주세요."; //잘못된 입력 처리
 			}
 		}

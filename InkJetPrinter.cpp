@@ -1,7 +1,8 @@
 #include "InkJetPrinter.h"
 
 //雷农连 橇赴磐 积己磊
-InkJetPrinter::InkJetPrinter(string model, string manufacturer, int availableCount, int availableInk) : BasePrinter(model, manufacturer, availableCount) {
+InkJetPrinter::InkJetPrinter(string model, string manufacturer, int availableCount, int availableInk) 
+	: BasePrinter(model, manufacturer, availableCount) {
 	this->availableInk = availableInk;
 }
 

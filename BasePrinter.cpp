@@ -32,6 +32,12 @@ string BasePrinter::getManufacturer() {
 	return manufacturer;
 }
 
+//ÀÎ¼â ¸Å¼ö ¹İÈ¯
+int BasePrinter::getPrintedCount()
+{
+	return printedCount;
+}
+
 //ÀÎ¼â Á¾ÀÌ ÀÜ·® ¹İÈ¯
 int BasePrinter::getAvailableCount() {
 	return availableCount;
